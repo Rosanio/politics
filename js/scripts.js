@@ -24,10 +24,13 @@ $(function() {
     }
 
     if (score < -1) {
+      $('.dissapear').hide();
       $('#lib').show();
     }else if (score >= -1 && score <= 1) {
+      $('.dissapear').hide();
       $('#mod').show();
     }else {
+      $('.dissapear').hide();
       $('#cons').show();
     }
 
